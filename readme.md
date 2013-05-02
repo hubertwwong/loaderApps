@@ -1,9 +1,14 @@
-Trying out some javascript example code from a Princeton CS class.
+javascript loading examples.
 
-http://www.cs.princeton.edu/courses/archive/fall12/cos109/JS/
+onePage
+- a really basic javascript example. hello world basically.
 
-I'm probably gonig to reimplement them just so I can get some practice from them.
-====
-Delete above
+seperateJS
+- split the JS code into a seperate file.
 
-this project shows various simple techniques to load javascript files.
+startAppOffTimerSperateJS-V2
+- added a simple way to way to output stuff to the webpage.
+- mostly used to try out some code.
+
+startAppOffTimerSperateJS-V3
+- moved the console function off to a seperate file.
