@@ -1,13 +1,20 @@
+<!--
+	a simple html page to show you how to load javascript files.
+	this is the inline method.
+	
+	using a simple timeout method to wait to the DOM to load.
+	very basic.
+-->
+
 <html>
 
 <head>
 	<title>test</title>
 	<script type="text/javascript">
-		// added a wrapper so it load after the html loads.
+		// added a timeout so the DOM loads.
 		setTimeout(function(){
 		    var para = document.getElementById('console');
  			para.value = "replaced text from javascript";
- 			
 		}, 2000);
 		
 	</script>
@@ -20,11 +27,10 @@
 	-->
 	<form>
   		<h3>text output:</h3>
-  		<textarea rows="4" cols="50" id="console">
+  		<textarea rows="80" cols="80" id="console">
 			
 		</textarea>
   	</form>
-</form>
 </body>
 
-<html>
+</html>
