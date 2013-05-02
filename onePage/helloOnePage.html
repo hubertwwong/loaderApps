@@ -1,0 +1,30 @@
+<html>
+
+<head>
+	<title>test</title>
+	<script type="text/javascript">
+		// added a wrapper so it load after the html loads.
+		setTimeout(function(){
+		    var para = document.getElementById('console');
+ 			para.value = "replaced text from javascript";
+ 			
+		}, 2000);
+		
+	</script>
+</head>
+
+<body>
+	<!-- 
+		creating a text box for javascript output.
+		don't have to deal with the text refresh.
+	-->
+	<form>
+  		<h3>text output:</h3>
+  		<textarea rows="4" cols="50" id="console">
+			
+		</textarea>
+  	</form>
+</form>
+</body>
+
+<html>

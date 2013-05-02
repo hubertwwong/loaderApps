@@ -1,0 +1,28 @@
+<html>
+
+<head>
+	<title>test</title>
+</head>
+
+<body>
+	<!-- 
+		creating a text box for javascript output.
+		don't have to deal with the text refresh.
+	-->
+	<form>
+  		<h3>text output:</h3>
+  		<textarea rows="4" cols="50" id="console">
+			
+		</textarea>
+  	</form>
+
+	<!-- 
+		load scripts at the bottom.
+		if you do it here, you don't have to check agains the dom loading.
+		has performance penalty if you do it this way.
+	-->
+	<script type="text/javascript" src="console.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+</body>
+
+<html>

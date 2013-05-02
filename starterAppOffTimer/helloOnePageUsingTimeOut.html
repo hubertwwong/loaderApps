@@ -1,0 +1,38 @@
+<html>
+
+<head>
+	<title>test</title>
+	<script type="text/javascript">
+		// wrapper that waits 2 seconds before loading.
+		// this will allow the DOM to load.
+		// not the best way but isn't reliant on any specific version of javascript.
+		setTimeout(function(){
+		    // add text in paragraph element.
+		    var para = document.getElementById('console');
+ 			para.value = "replaced text from javascript";
+ 			
+ 			// change other stuff.
+ 			var textH3 = document.getElementById('foo');
+ 			textH3.innerHTML = "zzzz";
+		}, 2000);
+		
+	</script>
+</head>
+
+<body>
+	<!-- 
+		creating a text box for javascript output.
+		don't have to deal with the text refresh.
+	-->
+	<form>
+  		<h3>text output:</h3>
+  		<textarea rows="4" cols="50" id="console">
+			
+		</textarea>
+  	</form>
+  	
+  	<p id="foo">aaa</p>
+</form>
+</body>
+
+<html>
